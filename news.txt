@@ -1,0 +1,21 @@
+Top 5 News headlines:
+The Headline is - Breaking: New Discovery in Space Exploration
+Story - Scientists have made a groundbreaking discovery in space exploration that could change our understanding of the universe.
+Checkout the link for detail: https://example.com/article1
+Moving to the next news...
+The Headline is - Health Alert: New Vaccine Shows Promising Results
+Story - A new vaccine has shown promising results in clinical trials, offering hope in the fight against a deadly disease.
+Checkout the link for detail: https://example.com/article2
+Moving to the next news...
+The Headline is - Political Update: Government Announces Key Reforms
+Story - The government has announced significant reforms aimed at improving the economy and addressing social issues.
+Checkout the link for detail: https://example.com/article3
+Moving to the next news...
+The Headline is - Entertainment News: Star Actor Wins Prestigious Award
+Story - A renowned actor in the film industry has won a prestigious award for their outstanding performance in the latest movie.
+Checkout the link for detail: https://example.com/article4
+Moving to the next news...
+The Headline is - Sports Update: Team X Clinches Victory in Thrilling Match
+Story - In a thrilling match, Team X emerged victorious, securing their position in the finals of the championship.
+Checkout the link for detail: https://example.com/article5
+Moving to the next news...
