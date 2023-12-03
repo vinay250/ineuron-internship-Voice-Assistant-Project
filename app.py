@@ -35,44 +35,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import qrcode
 
-# Create the main application window
 
-HEIGHT = 591
-WIDTH = 1060
-root = tk.Tk()
-
-canvas = tk.Canvas(root ,height=HEIGHT ,width=WIDTH)
-canvas.pack()
-
-# Specify the path to the image file
-
-
-background_image = tk.PhotoImage(file='vb.png')
-background_label = tk.Label(root,image=background_image)
-background_label.place(relwidth=1,relheight=1)
-
-frame =tk.Frame(root)
-frame.place(relwidth=0,relheight=0)
-
-
-
-root.title("Vinay")
-
-output_label = ttk.Label(root, text="command")
-
-# Create a label to display the output
-
-label = tk.Label(frame,text='Just say"Vinay" to talk',font= 'san-serif 20 bold', background='#80c1ff')
-label.grid(row=1,column=1)
-
-output_label=ttk.Label(root , text="good morning sir",font='san-serif 12 bold',background='sky blue').pack()
-output_label=ttk.Label(root , text="vinay, is all ready for your commands sir. How may I help you?",font='san-serif 14 bold',background='sky blue').pack()
-output_label = ttk.Label(root, text="command")
-output_label.pack()
-
-# Create an entry field for user input
-input_entry = ttk.Entry(root)
-input_entry.pack()
 
 # Text to speech using pyttsx3 module.
 engine = pyttsx3.init()
@@ -84,12 +47,9 @@ def process_command():
     # Process the command here and update the output_label text accordingly
     output_label.configure(text="Command: " + command)
 
-# Create a button to trigger command processing
-button = ttk.Button(root, text="Submit",  command=process_command)
-button.pack()
 
-# Start the GUI event loop
-root.mainloop()
+
+
 
 def speak(text):
     """
