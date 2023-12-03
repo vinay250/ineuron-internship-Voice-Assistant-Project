@@ -6,62 +6,61 @@ Problem Statement:
 5. You have to build the entire model from scratch.
 
 Text-to-Audio Conversion:
-
 You are using the pyttsx3 library for converting text to audio, allowing your voice assistant to speak and provide responses.
+
 Date and Time:
-
 The datetime module is used to obtain the current date and time, enabling your voice assistant to respond to queries about the current time or date.
+
 Speech Recognition:
-
 The speech_recognition library is utilized to recognize and convert spoken words into text, facilitating user input through voice commands.
+
 Wikipedia Search:
-
 The wikipedia module is employed for searching and retrieving information from Wikipedia, expanding the knowledge base of your voice assistant.
+
 Web Browsing:
-
 The webbrowser library allows your voice assistant to open web pages in a browser, providing a way to access online information.
+
 Operating System Interactions:
-
 The os module is used for navigating and interacting with the operating system, allowing your voice assistant to execute commands or reach specific paths.
+
 Random Number Generation:
-
 The random module is applied for generating random numbers, providing a dynamic and varied experience in responses.
+
 Screenshot Capture:
-
 The pyautogui library facilitates taking screenshots, allowing your voice assistant to capture the current screen.
+
 API Requests and Data Parsing:
-
 The requests library is used for making API requests, and json is employed for parsing the data received from these requests.
+
 Weather Forecasting:
-
 The BeautifulSoup library is used for web scraping weather information, enhancing your voice assistant's ability to provide real-time weather forecasts.
+
 Window Management and Automation:
-
 subprocess is used for opening and closing windows applications, providing a degree of automation in your voice assistant.
+
 Browser Automation with Selenium:
-
 selenium is utilized for browser automation, enabling your voice assistant to perform actions on web pages, such as searching or interacting with elements.
+
 Brightness Control:
-
 screen_brightness_control is used to adjust screen brightness, allowing your voice assistant to control the brightness of the display.
+
 Sending WhatsApp Messages:
-
 pywhatkit allows your voice assistant to send WhatsApp messages programmatically.
+
 System Information Retrieval:
-
 platform, ctypes, wmi are used to obtain various system information, enabling your voice assistant to provide details about the system.
+
 Network Speed Testing:
-
 speedtest is employed to measure network speed, giving your voice assistant the capability to report on internet speed.
+
 GUI Using Tkinter:
-
 tkinter is used to create a graphical user interface, providing a user-friendly way to interact with your voice assistant.
+
 Window Handling with PyGetWindow:
-
 pygetwindow is used for managing windows, allowing your voice assistant to interact with open application windows.
+
 Socket Programming:
-
 socket is used for socket programming, allowing your voice assistant to communicate over a network.
-QR Code Generation:
 
+QR Code Generation:
 qrcode is used to generate QR codes, offering a feature to create QR codes programmatically.
