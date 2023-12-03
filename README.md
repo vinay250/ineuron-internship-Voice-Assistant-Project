@@ -80,3 +80,11 @@ pywhatkit==5.0              # For sending WhatsApp messages
 pygetwindow==0.0.14         # For window handling
 speedtest-cli==2.1.3        # For network speed testing
 qrcode==7.2.1               # For generating QR codes
+
+
+You can create a requirements.txt file in your project's root directory and use the following command to install the dependencies:
+pip install -r requirements.txt
+or
+pip show <library_name>
+
+
