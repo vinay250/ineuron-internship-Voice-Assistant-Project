@@ -64,3 +64,19 @@ socket is used for socket programming, allowing your voice assistant to communic
 
 QR Code Generation:
 qrcode is used to generate QR codes, offering a feature to create QR codes programmatically.
+
+
+requirements
+pyttsx3==2.90               # For text-to-speech
+SpeechRecognition==3.8.1    # For speech recognition
+wikipedia==1.4.0            # For Wikipedia search
+pyautogui==0.9.53            # For taking screenshots
+requests==2.26.0            # For making API requests
+beautifulsoup4==4.10.0      # For web scraping
+selenium==3.141.0           # For browser automation
+screen-brightness-control==0.7.0  # For controlling screen brightness
+tk==0.1.0                   # For GUI with Tkinter
+pywhatkit==5.0              # For sending WhatsApp messages
+pygetwindow==0.0.14         # For window handling
+speedtest-cli==2.1.3        # For network speed testing
+qrcode==7.2.1               # For generating QR codes
