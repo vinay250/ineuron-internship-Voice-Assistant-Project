@@ -1,6 +1,6 @@
-#voice assitant sytem using deep learning models
+## voice assitant sytem using deep learning models
 
- Table of contents
+ ## Table of contents
 
 * [Overview](#overview)
 * [Project Goal](#project-goal)
