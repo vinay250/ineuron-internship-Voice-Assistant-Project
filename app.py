@@ -324,6 +324,45 @@ def unlock_windows(password):
     ctypes.windll.user32.LockWorkStation()
     ctypes.windll.user32.UnlockWorkStation()
     
+def get_user_input(prompt):
+    speak(prompt)
+    recognizer = sr.Recognizer()
+    with sr.Microphone() as source:
+        try:
+            audio = recognizer.listen(source, timeout=5)
+            user_input = recognizer.recognize_google(audio)
+            return user_input
+        except sr.UnknownValueError:
+            speak("Sorry, I didn't catch that. Can you please repeat?")
+            print("Sorry, I didn't catch that. Can you please repeat?")
+        except sr.RequestError as e:
+            print(f"Could not request results from Google Speech Recognition service; {e}")
+            
+
+def set_alarm():
+    user_time = get_user_input("What time would you like to set the alarm for? (HH:MM format)")
+
+    try:
+        if user_time:
+            # Convert the input time to a datetime object
+            alarm_time = datetime.datetime.strptime(user_time, "%H:%M")
+            current_time = datetime.datetime.now().time()
+
+            while True:
+                current_time = datetime.datetime.now().time()
+
+                # Check if the current time matches the alarm time
+                if current_time >= alarm_time.time():
+                    speak("Time to wake up!")
+                    break
+
+                time.sleep(1)  # Sleep for 1 second before checking again
+        else:
+            speak("No input received. Please try again.")
+
+    except ValueError:
+        speak("Invalid time format. Please use HH:MM.")
+
 
 def close_browser():
     os.system(" pkill 'Google Chrome'")  # Replace "Google Chrome" with the appropriate browser process name
@@ -682,6 +721,8 @@ if __name__ == "__main__":
                 speak('volume muted')
                 print('volume muted')
 
+        elif("set an alarm"in input):
+                set_alarm()
         
         #Command for screenRecording
             #Eg: vinay start voice recording
