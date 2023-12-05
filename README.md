@@ -18,8 +18,7 @@
 The Voice Assistant project, named "Vinay," is a comprehensive virtual assistant designed to provide a wide range of functionalities through voice interactions. The project aims to offer a seamless user experience by integrating various modules and libraries to perform tasks such as voice commands, information retrieval, automation, and system management.
 
 ## vb.png
-
-![Alt text](vb-1-1.png)
+(vb-1-1.png)
 
 
 ## Project Goals
