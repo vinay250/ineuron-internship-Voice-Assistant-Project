@@ -1,4 +1,4 @@
-## voice assitant sytem using deep learning models
+## Voice Assitant Sytem Using Deep Learning Models
 
  ## Table of contents
 
@@ -19,7 +19,7 @@ The Voice Assistant project, named "Vinay," is a comprehensive virtual assistant
 
 ## Project Goals
 
-##Voice Interaction:Vinay enables users to interact with the system using natural language voice commands.
+Voice Interaction:Vinay enables users to interact with the system using natural language voice commands.
 
 Information Retrieval: The assistant can provide information on various topics by searching Wikipedia, reading news headlines, and offering real-time data like date, time, and weather forecasts.
 
