@@ -19,8 +19,7 @@ The Voice Assistant project, named "Vinay," is a comprehensive virtual assistant
 
 ## vb.png
 
-![just say vinay to talk](vb-1.png)
-
+![Alt text](vb-1-1.png)
 
 
 ## Project Goals
